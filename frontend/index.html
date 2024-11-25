@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quid - AI-Powered Q&A Platform</title>
+    <link rel="stylesheet" href="quid.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Quid</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#popular">Popular Questions</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#ask">Ask a Question</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Latest Questions</h2>
+            <div id="questions-container"></div>
+        </section>
+
+        <section id="popular">
+            <h2>Popular Questions</h2>
+            <div id="popular-questions"></div>
+        </section>
+
+        <section id="categories">
+            <h2>Top Categories</h2>
+            <div id="category-list"></div>
+        </section>
+
+        <section id="ask">
+            <h2>Ask a Question</h2>
+            <input type="text" id="question-input" placeholder="Type your question here...">
+            <button onclick="submitQuestion()">Submit</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Quid. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
